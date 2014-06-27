@@ -8,6 +8,7 @@
             <xsd:element name="uniqueOrderId" minOccurs="1" maxOccurs="1" type="xsd:int"/>
             <xsd:element name="orderQuantity" minOccurs="1" maxOccurs="1" type="xsd:int"/>
             <xsd:element name="accountId" minOccurs="1" maxOccurs="1" type="xsd:int"/>
+            <xsd:element name="book" minOccurs="1" maxOccurs="1" type="tns:BookType"/>
             <xsd:element name="ean13" minOccurs="1" maxOccurs="1" type="xsd:long"/>
         </xsd:sequence>
     </xsd:complexType>
