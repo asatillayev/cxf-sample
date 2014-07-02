@@ -51,6 +51,10 @@
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/main/resources/wsdl/Orders.wsdl</wsdl>
+                                    <extraargs>
+                                        <extraarg>-impl</extraarg>
+                                        <extraarg>-verbose</extraarg>
+                                    </extraargs>
                                 </wsdlOption>
                             </wsdlOptions>
                         </configuration>

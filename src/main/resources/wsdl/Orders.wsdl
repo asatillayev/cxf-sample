@@ -24,7 +24,7 @@
     <wsdl:binding name="OrdersSOAP" type="tns:Orders">
         <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="ProcessOrderPlacement">
-            <soap:operation soapAction="http://sample.cxf.com/service/Orders/NewOperation"/>
+            <soap:operation soapAction="http://sample.cxf.com/service/Orders/ProcessOrderPlacement"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>

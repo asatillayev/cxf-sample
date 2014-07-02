@@ -8,17 +8,18 @@ import javax.xml.namespace.QName;
 
 
 /**
- * This object contains factory methods for each
- * Java content interface and Java element interface
- * generated in the com.cxf.sample.schema.orders package.
- * <p>An ObjectFactory allows you to programatically
- * construct new instances of the Java representation
- * for XML content. The Java representation of XML
- * content can consist of schema derived interfaces
- * and classes representing the binding of schema
- * type definitions, element declarations and model
- * groups.  Factory methods for each of these are
+ * This object contains factory methods for each 
+ * Java content interface and Java element interface 
+ * generated in the com.cxf.sample.schema.orders package. 
+ * <p>An ObjectFactory allows you to programatically 
+ * construct new instances of the Java representation 
+ * for XML content. The Java representation of XML 
+ * content can consist of schema derived interfaces 
+ * and classes representing the binding of schema 
+ * type definitions, element declarations and model 
+ * groups.  Factory methods for each of these are 
  * provided in this class.
+ * 
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -28,12 +29,14 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.cxf.sample.schema.orders
+     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link OrderInquiryType }
+     * 
      */
     public OrderInquiryType createOrderInquiryType() {
         return new OrderInquiryType();
@@ -41,6 +44,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OrderInquiryResponseType }
+     * 
      */
     public OrderInquiryResponseType createOrderInquiryResponseType() {
         return new OrderInquiryResponseType();
@@ -48,6 +52,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OrderType }
+     * 
      */
     public OrderType createOrderType() {
         return new OrderType();
@@ -55,6 +60,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link BookType }
+     * 
      */
     public BookType createBookType() {
         return new BookType();
@@ -62,6 +68,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link OrderItemType }
+     * 
      */
     public OrderItemType createOrderItemType() {
         return new OrderItemType();
@@ -69,6 +76,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link AccountType }
+     * 
      */
     public AccountType createAccountType() {
         return new AccountType();
@@ -76,6 +84,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link OrderInquiryType }{@code >}}
+     * 
      */
     @XmlElementDecl(namespace = "http://sample.cxf.com/schema/Orders/", name = "orderInquiry")
     public JAXBElement<OrderInquiryType> createOrderInquiry(OrderInquiryType value) {
@@ -84,6 +93,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link OrderInquiryResponseType }{@code >}}
+     * 
      */
     @XmlElementDecl(namespace = "http://sample.cxf.com/schema/Orders/", name = "orderInquiryResponse")
     public JAXBElement<OrderInquiryResponseType> createOrderInquiryResponse(OrderInquiryResponseType value) {

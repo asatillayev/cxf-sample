@@ -12,9 +12,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * <p>Java class for OrderItemType complex type.
- * <p/>
+ * 
  * <p>The following schema fragment specifies the expected content contained within this class.
- * <p/>
+ * 
  * <pre>
  * &lt;complexType name="OrderItemType">
  *   &lt;complexContent>
@@ -30,14 +30,16 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "OrderItemType", propOrder = {
-        "lineNumber",
-        "expectedShippingDate",
-        "book",
-        "price",
-        "quantityShpped"
+    "lineNumber",
+    "expectedShippingDate",
+    "book",
+    "price",
+    "quantityShpped"
 })
 public class OrderItemType {
 
@@ -54,9 +56,11 @@ public class OrderItemType {
 
     /**
      * Gets the value of the lineNumber property.
-     *
-     * @return possible object is
-     * {@link String }
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
      */
     public String getLineNumber() {
         return lineNumber;
@@ -64,9 +68,11 @@ public class OrderItemType {
 
     /**
      * Sets the value of the lineNumber property.
-     *
-     * @param value allowed object is
-     *              {@link String }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
      */
     public void setLineNumber(String value) {
         this.lineNumber = value;
@@ -74,9 +80,11 @@ public class OrderItemType {
 
     /**
      * Gets the value of the expectedShippingDate property.
-     *
-     * @return possible object is
-     * {@link XMLGregorianCalendar }
+     * 
+     * @return
+     *     possible object is
+     *     {@link XMLGregorianCalendar }
+     *     
      */
     public XMLGregorianCalendar getExpectedShippingDate() {
         return expectedShippingDate;
@@ -84,9 +92,11 @@ public class OrderItemType {
 
     /**
      * Sets the value of the expectedShippingDate property.
-     *
-     * @param value allowed object is
-     *              {@link XMLGregorianCalendar }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link XMLGregorianCalendar }
+     *     
      */
     public void setExpectedShippingDate(XMLGregorianCalendar value) {
         this.expectedShippingDate = value;
@@ -94,9 +104,11 @@ public class OrderItemType {
 
     /**
      * Gets the value of the book property.
-     *
-     * @return possible object is
-     * {@link BookType }
+     * 
+     * @return
+     *     possible object is
+     *     {@link BookType }
+     *     
      */
     public BookType getBook() {
         return book;
@@ -104,9 +116,11 @@ public class OrderItemType {
 
     /**
      * Sets the value of the book property.
-     *
-     * @param value allowed object is
-     *              {@link BookType }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BookType }
+     *     
      */
     public void setBook(BookType value) {
         this.book = value;
@@ -114,9 +128,11 @@ public class OrderItemType {
 
     /**
      * Gets the value of the price property.
-     *
-     * @return possible object is
-     * {@link BigDecimal }
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigDecimal }
+     *     
      */
     public BigDecimal getPrice() {
         return price;
@@ -124,9 +140,11 @@ public class OrderItemType {
 
     /**
      * Sets the value of the price property.
-     *
-     * @param value allowed object is
-     *              {@link BigDecimal }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigDecimal }
+     *     
      */
     public void setPrice(BigDecimal value) {
         this.price = value;
@@ -134,6 +152,7 @@ public class OrderItemType {
 
     /**
      * Gets the value of the quantityShpped property.
+     * 
      */
     public int getQuantityShpped() {
         return quantityShpped;
@@ -141,6 +160,7 @@ public class OrderItemType {
 
     /**
      * Sets the value of the quantityShpped property.
+     * 
      */
     public void setQuantityShpped(int value) {
         this.quantityShpped = value;

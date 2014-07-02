@@ -11,9 +11,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for OrderType complex type.
- * <p/>
+ * 
  * <p>The following schema fragment specifies the expected content contained within this class.
- * <p/>
+ * 
  * <pre>
  * &lt;complexType name="OrderType">
  *   &lt;complexContent>
@@ -26,11 +26,13 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "OrderType", propOrder = {
-        "orderItems",
-        "orderStatus"
+    "orderItems",
+    "orderStatus"
 })
 public class OrderType {
 
@@ -41,23 +43,25 @@ public class OrderType {
 
     /**
      * Gets the value of the orderItems property.
-     * <p/>
-     * <p/>
+     * 
+     * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the orderItems property.
-     * <p/>
-     * <p/>
+     * 
+     * <p>
      * For example, to add a new item, do as follows:
      * <pre>
      *    getOrderItems().add(newItem);
      * </pre>
-     * <p/>
-     * <p/>
-     * <p/>
+     * 
+     * 
+     * <p>
      * Objects of the following type(s) are allowed in the list
      * {@link OrderItemType }
+     * 
+     * 
      */
     public List<OrderItemType> getOrderItems() {
         if (orderItems == null) {
@@ -68,9 +72,11 @@ public class OrderType {
 
     /**
      * Gets the value of the orderStatus property.
-     *
-     * @return possible object is
-     * {@link OrderStatusType }
+     * 
+     * @return
+     *     possible object is
+     *     {@link OrderStatusType }
+     *     
      */
     public OrderStatusType getOrderStatus() {
         return orderStatus;
@@ -78,9 +84,11 @@ public class OrderType {
 
     /**
      * Sets the value of the orderStatus property.
-     *
-     * @param value allowed object is
-     *              {@link OrderStatusType }
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link OrderStatusType }
+     *     
      */
     public void setOrderStatus(OrderStatusType value) {
         this.orderStatus = value;
